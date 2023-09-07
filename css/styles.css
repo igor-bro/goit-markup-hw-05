@@ -617,7 +617,7 @@ img {
     margin-bottom: 4px;
 }
 
-.inputname {
+.input-item {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -640,23 +640,12 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.inputname:focus +.nameicon {
+.inputname:focus + .nameicon {
     fill: #4d5ae5;    
 }
 
-.inputphone {
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    background-color: transparent;
-    padding-left: 38px;
-    outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .inputphone:focus {
-    fill: #4d5ae5;
+    border-color: #4d5ae5;
 }
 
 .phoneicon {
@@ -667,23 +656,12 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.inputphone:focus +.phoneicon {
+.inputphone:focus + .phoneicon {
     fill: #4d5ae5;
-}
-
-.inputemail {
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    background-color: transparent;
-    padding-left: 38px;
-    outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .inputemail:focus {
-    fill: #4d5ae5;
+    border-color: #4d5ae5;
 }
 
 .emailicon {
@@ -694,7 +672,7 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.inputemail:focus +.emailicon {
+.inputemail:focus + .emailicon {
     fill: #4d5ae5;
 }
 
@@ -741,7 +719,7 @@ img {
     fill: transparent;
 }
 
-.inputpryvacy:checked > .privacycheckbox {
+.inputpryvacy:checked + .inputlabel > .privacycheckbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -760,4 +738,10 @@ img {
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
