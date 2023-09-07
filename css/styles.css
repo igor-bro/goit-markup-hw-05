@@ -690,7 +690,7 @@ img {
     fill: transparent;
 }
 
-.inputprivacy:checked + .privacycheckbox {
+.inputprivacy:checked + .inputlabel > .privacycheckbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -698,6 +698,7 @@ img {
 
 .pryvacylink {
     color: #4d5ae5;
+    text-decoration-line: underline;
 }
 
 .modalsubmint-buttom {
