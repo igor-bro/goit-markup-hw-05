@@ -601,6 +601,10 @@ img {
 
 .modalform-container {
     margin-bottom: 8px; 
+    
+}
+
+.input-container {
     position: relative;
 }
 
@@ -716,6 +720,10 @@ img {
 
 .inputprivacy {
     
+}
+
+.pryvacy-container {
+    margin-bottom: 24px;
 }
 
 .privacycheckbox {
