@@ -590,11 +590,11 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.closebutton:hover .close-icon {
+.closebutton:hover + .close-icon {
     fill: #ffffff;
 }
 
-.closebutton:focus .close-icon {
+.closebutton:focus + .close-icon {
     fill: #ffffff;
 }
 
