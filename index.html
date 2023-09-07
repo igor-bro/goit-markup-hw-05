@@ -393,7 +393,7 @@
                         <div class="inputlabelcontainer">
                             <input type="text" class="inputname" id="user-name" />
                             <svg class="nameicon" width="18" height="24">
-                                <use href="./images/icons.svg#icon-persone"></use>
+                                <use href="./images/icons.svg#icon-person"></use>
                             </svg>
                         </div>
                     </label>
@@ -425,9 +425,15 @@
                     </textarea>
                 </div>
                 <div class="modalform-container">
-                    <input class="inputprivacy" type="checkbox" name="user-privacy" value="true" id="user-privacy" />
+                    
                     <label for="user-privacy" class="inputlabel">I accept the terms and conditions of the
-                        <span class="privacylink"></span> 
+                        <input class="visually-hidden inputprivacy" type="checkbox" name="user-privacy" value="true" id="user-privacy" />
+                        <span class="privacycheckbox">
+                            <svg class="icons-item-icon checkbox-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-close"></use>
+                            </svg>
+                        </span>
+                        <a class="pryvacylink" href="">Privacy Policy</a>    
                     </label>
                 </div>
                 <button class="modalsubmint-buttom" type="submit">Send</button>
