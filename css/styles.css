@@ -434,8 +434,12 @@ img {
   height: 40px;
 }
 
-.footerlogo {
+.footer-logo {
   margin-right: 120px;
+}
+
+.footerlogo {
+  margin-bottom: 16px;
 }
 
 .spanlogofooter {
@@ -492,7 +496,6 @@ img {
   height: 40px;
   padding-left: 16px;
   border-radius: 4px;
-  margin-right: 24px;
   border: 1px solid var(--WHITE, #fff);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
@@ -709,6 +712,10 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.inputprivacy:focus + .inputlabel > .privacycheckbox {
+  border-color: #404bbf;
 }
 
 .pryvacylink {
